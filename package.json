@@ -1,6 +1,6 @@
 {
   "name": "server-response-helperv2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A clean, minimal Express middleware and helper for standardized HTTP server responses.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
