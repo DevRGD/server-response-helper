@@ -1,0 +1,50 @@
+{
+  "name": "server-response-helper",
+  "version": "1.0.0",
+  "description": "A clean, minimal Express middleware and helper for standardized HTTP server responses.",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevRGD/server-response-helper"
+  },
+  "keywords": [
+    "http",
+    "express",
+    "middleware",
+    "response",
+    "server",
+    "helper",
+    "typescript"
+  ],
+  "author": "DevRGD",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^0.34.0"
+  },
+  "peerDependencies": {
+    "express": "^4.17.0 || ^5.0.0"
+  }
+}
