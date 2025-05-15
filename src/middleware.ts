@@ -1,5 +1,5 @@
 import type { Request, Response, NextFunction } from 'express';
-import { response } from './index';
+import { response } from './index.js';
 
 declare global {
   namespace Express {

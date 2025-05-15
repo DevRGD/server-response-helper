@@ -1,5 +1,5 @@
 import type { Response } from 'express';
-import { statusMessages } from './messages';
+import { statusMessages } from './messages.js';
 
 export interface StandardResponse<T = any> {
   status: number;
