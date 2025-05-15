@@ -1,4 +1,4 @@
-import { response } from './index';
+import { response } from './index.js';
 /**
  * Middleware to add the `response` helper method to the Express Response object.
  *

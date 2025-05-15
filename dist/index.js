@@ -1,4 +1,4 @@
-import { statusMessages } from './messages';
+import { statusMessages } from './messages.js';
 /**
  * Sends a standardized server response using the Express `res` object.
  *
