@@ -1,6 +1,6 @@
 {
   "name": "server-response-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An elegant Express middleware that provides a .response() helper to create consistent, standardized JSON responses across your API. Features include custom messages, TypeScript support, and zero dependencies.",
   "type": "module",
   "main": "./dist/index.js",
