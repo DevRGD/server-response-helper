@@ -13,7 +13,7 @@
   <a href="https://www.npmjs.com/package/server-response-helper" target="_blank">
     <img src="https://img.shields.io/npm/dm/server-response-helper?style=for-the-badge&logo=npm&logoColor=white&color=teal" alt="NPM Downloads">
   </a>
-  <a href="https://github.com/DevRGD/server-response-helper/actions/workflows/ci.yml" target="_blank">
+  <a href="https://github.com/DevRGD/server-response-helper/actions/workflows/release.yml" target="_blank">
     <img src="https://img.shields.io/github/actions/workflow/status/DevRGD/server-response-helper/release.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&color=indigo" alt="Build Status">
   </a>
   <a href="LICENSE" target="_blank">
